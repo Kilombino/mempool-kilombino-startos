@@ -1,0 +1,14 @@
+{
+  "name": "mempool-kilombino-startos",
+  "scripts": {
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@start9labs/start-sdk": "3.1.0",
+    "knots-blake2b-startos": "github:paulscode/knots-blake2b-startos#main",
+    "lnd-startos": "github:Start9Labs/lnd-startos#next"
+  },
+  "overrides": {
+    "@start9labs/start-sdk": "$@start9labs/start-sdk"
+  }
+}

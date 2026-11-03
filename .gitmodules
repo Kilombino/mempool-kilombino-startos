@@ -1,0 +1,4 @@
+[submodule "mempool"]
+	path = mempool
+	url = https://github.com/Kilombino/mempool-bip110.git
+	branch = main
